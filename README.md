@@ -69,13 +69,13 @@ Screenshot
 
 ***
 3. Register the following user-data to the Gloden base image templates 
-
+```
 #cloud-config
 chpasswd:
   list: |
     root:password
   expire: False
-
+```
 ***
 4. Generate the Application based Golden image for the Specific OS
 
