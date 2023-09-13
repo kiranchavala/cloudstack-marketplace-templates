@@ -41,7 +41,7 @@ https://computingforgeeks.com/install-kvm-centos-rhel-ubuntu-debian-sles-arch/
 Generating a specific Application template involves the following steps 
 
 ***
-1. Generate the Golden base image (Cloud init enabled) for a specific OS 
+1. ***Generate the Golden base image (Cloud init enabled) for a specific OS***
 
 This will generate templates based on the hypervisor and os 
 
@@ -61,7 +61,7 @@ This will generate, the qcow2, vhd and ova format templates for the respective o
 
 ***
 
-2. Register the Golden base image for a speciic OS and a Hypervisor on Cloudstack 
+2. ***Register the Golden base image for a speciic OS and a Hypervisor on Cloudstack***
 
 Images> Template > 
 
@@ -69,7 +69,7 @@ Images> Template >
 
 
 ***
-3. Register the following user-data to the Gloden base image templates 
+3. ***Register the following user-data to the Gloden base image templates***
 ```
 #cloud-config
 chpasswd:
@@ -83,7 +83,7 @@ chpasswd:
 
 
 ***
-4. Generate the Application based Golden image for the Specific OS
+4. ***Generate the Application based Golden image for the Specific OS***
 
 
 Currently, the applications that have a packer template are 
@@ -149,7 +149,7 @@ Images> Template >
 
 ***
 
-5. Deploy the application template
+5. ***Deploy the application template***
 
 Login to the instance and check the application info
 
