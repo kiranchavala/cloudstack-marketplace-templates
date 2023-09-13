@@ -38,7 +38,7 @@ https://computingforgeeks.com/install-kvm-centos-rhel-ubuntu-debian-sles-arch/
 
 ```
 
-Generating a specific Application involves the following steps 
+Generating a specific Application template involves the following steps 
 
 ***
 1. Generate the Golden base image (Cloud init enabled) for a specific OS 
@@ -47,7 +47,7 @@ This will generate templates based on the hypervisor and os
 
 
 ```
-git clone ""
+git clone "https://github.com/kiranchavala/cloudstack-marketplace-templates.git"
 
 cd cloudstack-marketplace-templates
 packer build <guestos.phr.hcl>
