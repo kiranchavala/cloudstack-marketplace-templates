@@ -77,6 +77,11 @@ chpasswd:
     root:password
   expire: False
 ```
+
+![User-data](https://github.com/kiranchavala/cloudstack-marketplace-templates/assets/1401014/67906330-deca-4d1f-8692-0d6b2c8745c0)
+
+
+
 ***
 4. Generate the Application based Golden image for the Specific OS
 
