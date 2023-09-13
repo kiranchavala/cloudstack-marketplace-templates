@@ -65,7 +65,8 @@ This will generate, the qcow2, vhd and ova format templates for the respective o
 
 Images> Template > 
 
-Screenshot
+![register template](https://github.com/kiranchavala/cloudstack-marketplace-templates/assets/1401014/32b7b557-837f-49dc-9960-2b84da2b651c)
+
 
 ***
 3. Register the following user-data to the Gloden base image templates 
@@ -80,14 +81,14 @@ chpasswd:
 4. Generate the Application based Golden image for the Specific OS
 
 
-Currently the applications that have a packer template are 
+Currently, the applications that have a packer template are 
 
 Docker
 wordpress
 phpmyadmin
 
 
-Replace the following variables values in the application HCL files based with your respective cloudstack credentials 
+Replace the following variables values in the application HCL files based with your respective Cloudstack credentials 
 
 ```
 
@@ -137,6 +138,9 @@ The packer application template will be generated in your Cloudstack Cloud
 
 ```
 Images> Template > 
+
+![application-template](https://github.com/kiranchavala/cloudstack-marketplace-templates/assets/1401014/c379f39a-3c0e-451c-a380-0c2bac615488)
+
 
 ***
 
